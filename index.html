@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Recipe Website</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Welcome to My Recipe Website</h1>
+        <p>We are happy to see you here!!</p>
+      </section>
+
+      <section id="recipes">
+        <h2>My Recipes</h2>
+        <p>Here are my favorite recipes!</p>
+        <div class="recipe-container">
+          <article class="recipe-card">
+            <h3>Banana Bread</h3>
+            <p>A soft and moist banana bread that's easy to make!</p>
+            <img src="images/banana-bread.jpg" alt="Homemade banana bread" />
+            <h4>Ingredients</h4>
+            <ul id="ingredients">
+              <li>3 ripe bananas</li>
+              <li>2 cups flour</li>
+              <li>1/2 cup sugar</li>
+              <li>2 eggs</li>
+              <li>1/2 cup melted butter</li>
+              <li>1 teaspoon baking soda</li>
+            </ul>
+
+            <h4>Instructions</h4>
+            <ol>
+              <li>Preheat the oven to 350°F (175°C).</li>
+              <li>Mash the ripe bananas in a bowl.</li>
+              <li>Mix in the melted butter, sugar, and eggs.</li>
+              <li>Mix in the flour and baking soda gently.</li>
+              <li>Pour the batter into a greased loaf pan.</li>
+              <li>
+                Bake for 50–60 minutes, until a toothpick comes out clean.
+              </li>
+            </ol>
+          </article>
+
+          <article class="recipe-card">
+            <h3>Cookie Recepie</h3>
+            <p>Yummy chewy choclate chip cookie</p>
+            <img
+              src="images/chocolate-chip-cookie.jpg"
+              alt="Chewy chocolate chip cookie! "
+            />
+            <h4>Ingredients</h4>
+            <ul id="ingredients">
+              <li>2 ¼ cups all-purpose flour</li>
+              <li>1 tsp baking soda</li>
+              <li>1 tsp salt</li>
+              <li>
+                1 cup (2 sticks) unsalted butter, softened to room temperature
+              </li>
+              <li>¾ cup granulated white sugar</li>
+              <li>¾ cup packed brown sugar</li>
+              <li>2 large eggs</li>
+              <li>2 cups semi-sweet chocolate chips</li>
+            </ul>
+
+            <h4>Instructions</h4>
+            <ol>
+              <li>Turn oven to 375°F (190°C) and line your baking sheet.</li>
+              <li>Whisk flour, baking soda, and salt in a bowl.</li>
+              <li>Cream butter, sugars. Add eggs one at a time.</li>
+              <li>
+                Stir the dry mix into the wet mix, then fold in chocolate chips.
+              </li>
+              <li>
+                Drop tablespoon-sized balls onto the sheet. Bake for 9-11
+                minutes.
+              </li>
+            </ol>
+          </article>
+        </div>
+      </section>
+      <section id="suggest-recipe">
+        <h2>Suggest a Recipe</h2>
+        <form>
+          <label for="username">Your Name</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your name"
+            required
+          />
+          <label for="recepie">Recipe Nae</label>
+          <input
+            type="text"
+            id="recepie"
+            name="recepie"
+            placeholder="Enter a recipe name"
+          />
+          <label for="recipe-description">Recipe Description</label>
+          <textarea
+            id="recipe-description"
+            name="recipe-description"
+            placeholder="Tell us about your recipe..."
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit">Submit Recipe</button>
+
+        </form>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>A young girl who likes baking!</p>
+      </section>
+    </main>
+
+    <footer>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a question? Feel free to reach out!</p>
+        <p>© 2026 My Recipe Website</p>
+      </section>
+    </footer>
+  </body>
+</html>
